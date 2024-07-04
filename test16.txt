@@ -1,0 +1,3 @@
+link for 
+Write a program to find common values between two arrays.
+https://codescracker.com/c/program/c-program-common-element-in-two-array.htm

@@ -1,0 +1,11 @@
+'''
+While, we find mean by summing up all elements in the list, the procedures to find median, and mode are different.
+In fact, the median is the middlemost element. Therefore, we need to choose the element at the middle index in the list as the median.
+For this purpose, we take the count of elements in the list and divide the count by two. Further, if the count is an odd number, the resulting value when we round it off gives us the index of the median.
+However, the count may be an even number. In such case, we take the element at an index that we compute by dividing the count by zero. Also, we take the next element. Further, we find the average of both elements to get the median.
+
+Likewise, we can find the mode also. For this purpose, we need to find the most frequent element. Hence, we must find the count of each element in the list. the following procedure shows how to find the mode.
+
+At first, find the frequency of the first element and store it in a variable. After that, start a loop that scans all elements of the list starting from the second one. Whenever any element is found with a higher count, assign its value to mode.
+
+'''
